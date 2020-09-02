@@ -1,0 +1,175 @@
+
+/*
+frio=#18121E
+tibio=#233237
+calido #984B43
+caliente= EAC67A
+*/
+.menuEsports{
+	background-color: rgba(255,255,255,0.4);
+}
+.menuEsports strong{
+	color: #984B43; 
+}
+.divisorContenido{
+	color:#EAC67A;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.divisorContenido h3{ 
+	font-size: 1.3em;
+}
+.divisorContenido hr{
+	border: 5px solid #18121E;
+
+}
+.btn-lol{
+	background-color: transparent;
+	
+}
+.btn-cs{
+	
+	background-size: cover;
+	background-position: center;
+}
+.cabeceraEsports__icono{
+
+	height: auto;
+}
+.cabeceraEsports{
+	background-image: url(imagenes/fondoEncabezadoEsports.jpg);
+	background-size: cover;
+	height: 40vw;
+	color: white;
+	text-align: center;
+}
+body{
+	background: rgb(24,18,30);
+	background: linear-gradient(180deg, rgba(24,18,30,1) 0%, rgba(35,50,55,1) 28%, rgba(152,75,67,1) 62%, rgba(234,198,122,1) 100%);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+.menu--fondo{
+	background-color:rgba(0,0,0,0.3);
+}
+.menu__logo--estilo ,.menu__logo--estilo:active,.menu__logo--estilo:visited,.menu__logo--estilo:link{
+	
+	text-decoration: none;
+}
+.menu__logo--estilo h2{
+	color: #ffbb00;
+	font-family: 'Abril Fatface', cursive;
+
+}
+/*-----------------------------------------------------------estilos grales hasta header-------------------------------*/
+@media only screen and (max-width: 768px){
+	.menu__logo--estilo h2{
+		font-size: 2em;
+	}
+	.menu__opciones{
+		display: flex;
+		flex-direction: column;
+	}
+	.menu__opciones a,.menu__opciones a:visited,.menu__opciones a:link,.menu__opciones a:active{
+		font-size: 2em;
+		color: #EAC67A;
+		border: 2px solid #EAC67A;
+	}
+
+	/*--------------------------------------------------------------------------------*/
+	.cabeceraIndex__icono{
+		height: auto;
+	}
+	.cabeceraIndex{
+		background-image: url(imagenes/fondoEncabezadoNoticias.webp);
+		background-size: cover;
+		height: 40vw;
+		color: white;
+		text-align: center;
+	}
+	.noticia a h2{
+		font-size: 1.3rem;
+		display: flex;
+		text-align: left;
+		padding-right: 0.5em;
+		padding-left: 0.5em;
+	}
+	.noticia a h2 small{
+		font-size: 1rem;
+
+	}
+
+	.noticia a{
+		background-color: rgba(0,1,0,0.5);
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+
+	}
+	.noticia{
+		background: url(imagenes/imagenNoticia.webp);
+		
+		background-size: cover;
+		height: 50vw;
+		font-weight:bolder;
+	}
+	
+	.noticia a p{
+		color: white;
+		display: flex;
+		padding-right: 0.5em;
+		padding-left: 0.5em;
+	}
+	.noticia a h2{
+		color: #fffced; 
+	}
+	.separadorFooter{
+		border: 1px solid rgba(0,0,0,.1);
+  		border-radius: 5px;
+	}
+	.footer{
+		background-color:rgba(24,18,30,0.8);
+	}
+	.parrafoNoticia{
+		background-color: rgba(24,18,30,0.5);
+		color: white;
+	}
+	.parrafoNoticia a{
+		color: #EAC67A	;
+	}
+
+	/*============================================================================================================*/
+	/*============================================================================================================*/
+						/*=======================COMIENZO DE E-SPORT============================*/
+	/*============================================================================================================*/
+	/*============================================================================================================*/
+
+
+}
+@media only screen and (min-width: 768px){
+	.menu__navbar div a{
+		font-size: 4em;
+
+	}
+	.menu__opciones a,.menu__opciones a:visited,.menu__opciones a:link,.menu__opciones a:active{
+		font-size: 1em;  
+	}
+
+}
+.guia{
+	background: rgba(24,18,30,0.5);
+}
+.guia a{
+	text-decoration: none;
+}
+.guia__titulo{
+	text-align: center;
+	font-size: 1.3em;
+	color:#A84B43;
+}
+.guia__titulo small{
+	font-size: 0.5em;
+	color: #AAC67A;
+}
