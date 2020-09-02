@@ -173,3 +173,21 @@ body{
 	font-size: 0.5em;
 	color: #AAC67A;
 }
+.cabeceraGuias{
+	background-image: url(imagenes/fondoGuias.jpg);
+	background-size: cover;
+	height: 40vw;
+	color: white;
+	text-align: center;
+}
+.review h3{
+	font-size: 1.3em;
+	color:#18121E;
+}
+.review p{
+	font-size: 1em;
+	color:#18121E;
+}
+.review{
+	background: rgba(234, 198,122,0.3);
+}
